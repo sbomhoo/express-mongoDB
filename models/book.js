@@ -9,4 +9,4 @@ var bookSchema = new Schema({
 });
 
 module.exports = mongoose.model('book', bookSchema);     //model 모듈화, model은 데이터 조회,입력,수정,삭제 하기 위한 인터페이스 
-                                                        //book이라고 지정하면 mongoDB에서는 books(복수형)으로 컬렉션 만들어짐
+                                                        //book이라고 지정하면 mongoDB에서는 books(복수형)으로 컬렉션을 사용하겠다는 의미
